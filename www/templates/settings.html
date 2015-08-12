@@ -1,0 +1,18 @@
+<ion-view view-title="Settings">
+    <ion-content>
+        <h1>Settings</h1>
+        <ion-checkbox>I like music</ion-checkbox>
+        <h2>Choose One</h2>
+        <ion-radio ng-model="choice" ng-value="'A'">Rap</ion-radio>
+        <ion-radio ng-model="choice" ng-value="'B'">Oldies</ion-radio>
+        <ion-radio ng-model="choice" ng-value="'C'">Classics</ion-radio>
+        <h2>Additional Settings</h2>
+        <ion-toggle>Send me emails</ion-toggle>
+        <h2>Volume</h2>
+        <div class="item range">
+            <i class="icon ion-volume-low"></i>
+            <input type="range" name="volume">
+            <i class="icon ion-volume-high"></i>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,8 @@
+<ion-view view-title="Playlist">
+  <ion-content>
+    <h1>{{playListItem.album}} Album</h1>
+    <ion-checkbox ng-model="isChecked" class="item-checkbox-right">Do you like {{playListItem.artist}}?</ion-checkbox>
+    <br>
+    <button class="button button-full button-positive icon ion-gear-a" ng-click="show()">Show Action Sheet</button>
+  </ion-content>
+</ion-view>
